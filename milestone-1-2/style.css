@@ -1,0 +1,113 @@
+/* GENERAL STYLING */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 9.375rem;
+}
+
+.resume-container {
+    display: flex;
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 0.625rem;
+    box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.1);
+}
+
+/* LEFT SECTION STYLING */
+.left-section {
+    background-color: #2c2c2c;
+    color: #fff;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 0.3125rem solid #e63946;
+}
+
+.profile-picture {
+    width: 9.375rem;
+    height: 9.375rem;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 0.3125rem solid #e63946;
+    margin-bottom: 1.25rem;
+}
+
+h1 {
+    font-size: 1.25rem;
+    margin: 0.625rem 0;
+    margin-bottom: 1.875rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.125rem;
+    padding: 2%;
+    margin: 1.25rem 0 0.625rem;
+    color: #000;
+    border-radius: 0.625rem;
+    box-shadow: 0 0 0.9375rem #e63946;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+ul {
+    list-style-type: fill round;
+    margin: 0.625rem 0;
+}
+
+ul li {
+    margin: 0.3125rem 0;
+}
+
+/* Right Section Styling */
+.right-section {
+    padding: 1.25rem;
+    width: 65%;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0.625rem;
+    box-shadow: 0 0 0.9375rem #000;
+    cursor: pointer;
+    margin-top: 0.625rem;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #ff737c;
+}
+
+@media (min-width: 600px) {
+    .resume-container {
+        width: 100%;
+    }
+    
+    .left-section, .right-section {
+        width: 100%;
+    }
+    .right-section {
+        background-color: #fff;
+    }
+    
+    .left-section {
+        border-right: 0.3125rem solid #e63946;
+    }
+}
+
+/* For larger screens */
+@media (min-width: 900px) {
+    .resume-container {
+        width: 80%;
+    }
+
+    .left-section {
+        width: 35%;
+    }
+
+    .right-section {
+        width: 65%;
+    }
+}
